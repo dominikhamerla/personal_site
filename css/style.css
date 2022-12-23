@@ -1,11 +1,27 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500;700&display=swap');
 *{
     font-family: 'Roboto Mono';
-    color: #E7F6F2;
     background-color: #2C3333;
+}
+body{
+    margin: 0 10rem;
+}
+h1,h2,h3,p,a,li{
+    color: #E7F6F2;
 }
 
 header{
     display: flex;
     justify-content: space-between;
+}
+nav ul li{
+    display: inline-block;
+    text-decoration: none;
+    margin: 10px 1rem;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    color: #A5C9CA ;
 }
