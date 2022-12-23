@@ -4,7 +4,7 @@
     background-color: #2C3333;
 }
 body{
-    margin: 0 10rem;
+    margin: 0 5rem;
 }
 h1,h2,h3,p,a,li{
     color: #E7F6F2;
@@ -24,4 +24,24 @@ a{
 }
 a:hover{
     color: #A5C9CA ;
+}
+main{
+    margin: 0 20rem;
+}
+section{
+    display: flex;
+    min-height: 100vh;
+    height: 100vh;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 1000px;
+}
+
+
+
+
+footer{
+    text-align: center;
+    font-size: 12px;
+    opacity: 0.8;
 }
