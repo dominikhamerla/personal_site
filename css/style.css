@@ -2,17 +2,27 @@
 *{
     font-family: 'Roboto Mono';
     background-color: #2C3333;
+    box-sizing: border-box;
 }
 body{
     margin: 0 5rem;
 }
 h1,h2,h3,p,a,li{
     color: #E7F6F2;
+    margin: 0;
 }
-
+h2{
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+}
+h1{
+    font-size: 5rem;
+}
+/*header and navbar*/
 header{
     display: flex;
     justify-content: space-between;
+
 }
 nav ul li{
     display: inline-block;
@@ -28,6 +38,7 @@ a:hover{
 main{
     margin: 0 20rem;
 }
+/*basic section definition*/
 section{
     display: flex;
     min-height: 100vh;
@@ -35,11 +46,19 @@ section{
     justify-content: center;
     flex-direction: column;
     max-width: 1000px;
+    margin: 0;
 }
+/*Hero section*/
 
+.hero_hi p{
+    font-size: 2rem;
+    color: #A5C9CA;
+}
+.hero_name{
+    display:block;
 
-
-
+}
+/*footer*/
 footer{
     text-align: center;
     font-size: 12px;
