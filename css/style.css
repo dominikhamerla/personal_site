@@ -4,9 +4,7 @@
     background-color: #2C3333;
     box-sizing: border-box;
 }
-body{
-    margin: 0 5rem;
-}
+
 h1,h2,h3,p,a,li{
     color: #E7F6F2;
     margin: 0;
@@ -22,6 +20,7 @@ h1{
 header{
     display: flex;
     justify-content: space-between;
+    margin: 0 5em;
 
 }
 header img{
@@ -50,9 +49,10 @@ section{
     justify-content: center;
     flex-direction: column;
     max-width: 1000px;
+    min-width: 400px;
     margin: 0;
 }
-@media only screen and (max-width: 610px){
+@media only screen and (max-width: 750px){
     section{
         display: block;
     }
