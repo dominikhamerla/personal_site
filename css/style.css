@@ -76,6 +76,18 @@ section{
     display:block;
 
 }
+/*contact section*/
+.contact_text{
+    display: grid;
+    width: fit-content;
+    grid-template-columns: repeat(3,1fr);
+    gap: 1rem;
+    display: inline-block;
+}
+.icon{
+    height: 5rem;
+    width: auto;
+}
 /*footer*/
 footer{
     text-align: center;
