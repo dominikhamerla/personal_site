@@ -24,6 +24,10 @@ header{
     justify-content: space-between;
 
 }
+header img{
+    height: 5rem;
+    width: auto;
+}
 nav ul li{
     display: inline-block;
     text-decoration: none;
