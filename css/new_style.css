@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500;700&display=swap');
+*,
+*::after,
+*::before{
+    box-sizing: border-box;
+}
+/*Basic styling*/
+body,
+h1,
+h2,
+h3,
+p,
+li{
+    margin: 0;
+}
+h1,h2,h3,p,a,li{
+    color: #E7F6F2;
+}
+h1,
+h2,
+h3{
+    line-height: 1;
+    margin-bottom: 0.5rem;
+}
+img{
+    max-width: 100%;
+    display: block;
+}
+h1{
+    font-size: 5rem;
+}
+h2{
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style-type: none;
+}
+body{
+    font-family: 'Roboto Mono', sans-serif;
+    background-color: #2C3333;
+    line-height: 1.6;
+}
+section{
+    padding: 3rem 0;
+    min-height: 100vh;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.container{
+    margin-inline: auto;
+    width: min(90%,60rem);
+
+}
+/*header section*/
+header{
+    display: flex;
+    justify-content: space-between;
+    width: min(90%,100%);
+    margin-inline: auto;
+}
+.header_logo{
+    height: 5rem;
+}
+nav ul li{
+    display: inline-block;
+    margin: 0 0.5em;
+}
+/*contact*/
+.contact_text{
+    display: grid;
+    width: fit-content;
+    grid-template-columns: repeat(3,1fr);
+    gap: 1rem;
+}
+.icon{
+    height: 5rem;
+    width: auto;
+}
+/*footer*/
+footer{
+    text-align: center;
+    font-size: 0.8rem;
+    opacity: 0.8;
+}
